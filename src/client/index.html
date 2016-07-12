@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Title</title>
+
+    <!-- @if BUILD='release' !>
+        <link rel="stylesheet" type="text/css" href="systems/view_system/styles/main.css">
+    <!-- @endif !>
+
+    <!-- @exclude -->
+        <link rel="stylesheet" type="text/css" href="../../src/client/systems/view_system/styles/main.css">
+    <!-- @endexclude -->
+
+</head>
+<body>
+
+<div id="app"><h1>Hello World!!!</h1></div>
+<!-- @if BUILD='release' !>
+    <script src="main.js"></script>
+<!-- @endif !>
+
+<!-- @exclude -->
+<script src="../../node_modules/steal/steal.js"></script>
+<!-- @endexclude -->
+</body>
+</html>

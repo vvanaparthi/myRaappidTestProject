@@ -1,0 +1,13 @@
+node_modules
+.idea
+**/*.iml
+.DS_STORE
+src/**/*.js
+src/**/*.css
+test/**/*.js
+**/*.map
+coverage
+dist
+temp
+npm-debug.log
+.env
