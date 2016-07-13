@@ -18,6 +18,7 @@
     "bluebird": "3.4.1",
     "connect": "3.4.1",
     "eventemitter3": "1.2.0",
+    "ramajs": "^0.4.0",
     "serve-static": "1.11.1"
   },
   "devDependencies": {
